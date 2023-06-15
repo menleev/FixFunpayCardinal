@@ -17,7 +17,7 @@
 
 - [Плагины](#electric_plug-плагины)
 - [Установка](#arrow_down-установка)
-  - [Linux (Ubuntu)](#hotsprings-linux-ubuntu)
+  - [Linux (Ubuntu)](#hotsprings-linux-ubuntu-Windows)
 - [Настройка конфигов](#hammer_and_wrench-настройка-конфигов)
 - [Установка плагинов](#electric_plug-установка-плагинов)
 
@@ -68,7 +68,7 @@
 - Собственный Python-пакет FunPayAPI, который никак не привязан к FunPay Cardinal.
 - Поддержка лично от меня :)
 
-### :hotsprings: Linux (Ubuntu) / Windows (да вы можете использовать такое на Windows)))
+### :hotsprings: Linux (Ubuntu) / Windows
 
 1. Введите следующие команды для установки Python 3.11.
    1. `sudo apt update`
