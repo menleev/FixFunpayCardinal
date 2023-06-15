@@ -17,7 +17,7 @@
 
 - [Плагины](#electric_plug-плагины)
 - [Установка](#arrow_down-установка)
-  - [Linux (Ubuntu)](#hotsprings-linux-ubuntu-wndows)
+  - [Linux (Ubuntu) and Windows](#hotsprings-linux-ubuntu-wndows)
 - [Настройка конфигов](#hammer_and_wrench-настройка-конфигов)
 - [Установка плагинов](#electric_plug-установка-плагинов)
 
