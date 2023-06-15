@@ -16,7 +16,8 @@
   - [Для разработчиков](#computer-для-разработчиков)
 
 - [Установка](#arrow_down-установка)
-  - [Linux (Ubuntu) and Windows](#hotsprings-linux-ubuntu-and-windows)
+  - [Linux (Ubuntu)](#hotsprings-linux-ubuntu)
+  - [Windows](#window-windows) 
 - [Настройка конфигов](#hammer_and_wrench-настройка-конфигов)
 - [Установка плагинов](#electric_plug-установка-плагинов)
 
@@ -69,7 +70,7 @@
 
 ## :arrow_down: Установка
 
-### :hotsprings: Linux (Ubuntu) and Windows
+### :hotsprings: Linux (Ubuntu)
 
 1. Введите следующие команды для установки Python 3.11.
    1. `sudo apt update`
@@ -83,9 +84,20 @@
 
 2. Скачайте `git` с помощью команды `sudo apt install git`.
 3. Скачайте FunPayCardinal с помощью команды `git clone https://github.com/menleev/FixFunpayCardinal.git`.
-4. Перейдите в папку `FunPayCardinal` с помощью команрды `cd FunPayCardinal`.
+4. Перейдите в папку `FixFunPayCardinal` с помощью команрды `cd FixFunPayCardinal`.
 5. Установите нужные пакеты с помощью команды `python3.11 setup.py`.
 6. Настройте конфиги и запустите FunPay Cardinal с помощью команды `python3.11 main.py`.
+
+### :window: Windows
+
+1. Скачиваем Python `https://www.python.org/ftp/python/3.11.4/python-3.11.4-amd64.exe`.
+2. Запускаем установщик и снизу ставим галочку на `Add Patch`.
+3. После нажимаем на установить и ждём установки (в процессе соглашаемся со всем).
+4. Скачиваем архив `https://github.com/menleev/FixFunpayCardinal/archive/refs/heads/main.zip`.
+5. Распаковываем его в любую папку.
+6. Открываем `cmd` и вписываем путь до папки `cd путь до папки` если у вас другой диск то вписываем название диска пример: `d:` и опять указываем путь.
+7. Вводим команду `python3.11 setup.py` или `py setup.py` для установки нужных пакетов.
+8. Настройте конфиги и запустите FixFunPayCardinal с помощью команды `python3.11 main.py` или `py main.py`
 
 ## :hammer_and_wrench: Настройка конфигов
 
