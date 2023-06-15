@@ -15,9 +15,8 @@
   - [Для пользователей](#grinning-для-пользователей)
   - [Для разработчиков](#computer-для-разработчиков)
 
-- [Плагины](#electric_plug-плагины)
 - [Установка](#arrow_down-установка)
-  - [Linux (Ubuntu) and Windows](#hotsprings-linux-ubuntu-wndows)
+  - [Linux (Ubuntu) and Windows](#hotsprings-linux-ubuntu-and-windows)
 - [Настройка конфигов](#hammer_and_wrench-настройка-конфигов)
 - [Установка плагинов](#electric_plug-установка-плагинов)
 
@@ -67,6 +66,8 @@
 - Сконфигурированный логгер. Никаких принтов!
 - Собственный Python-пакет FunPayAPI, который никак не привязан к FunPay Cardinal.
 - Поддержка лично от меня :)
+
+## :arrow_down: Установка
 
 ### :hotsprings: Linux (Ubuntu) and Windows
 
