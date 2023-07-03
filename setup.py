@@ -10,7 +10,8 @@ common_packages = [
     "pillow>=9.3.0",
     "vk_api>=11.9.9",
     "aiohttp>=3.8.3",
-    "requests_toolbelt==0.10.1"
+    "requests_toolbelt==0.10.1",
+    "urllib3==1.26.15"
 ]
 
 
