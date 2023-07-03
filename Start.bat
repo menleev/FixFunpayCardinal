@@ -1,1 +1,2 @@
-start python main.py
+py setup.py
+python3 setup.py
