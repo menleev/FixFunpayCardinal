@@ -105,12 +105,6 @@
 
 7. Настройте конфиги и запустите FixFunPayCardinal с помощью команды `python3.11 main.py` или `py main.py` или запустите `start.bat`.
 ------------------------------------------
-- Ваш юзер агент можно получить тут: `https://whatmyuseragent.com/` (нажмите на `copy`)
-
-- Расширение для получения `golden_key` (голден кей получаем на сайте funpay `НУЖНО БЫТЬ АВТОРИЗОВАННЫМ НА САЙТЕ`!!!): `https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=ru`
-
-- Бот для тг создаем в `https://t.me/BotFather` и получаем токен бота (формат пример: `3476237846:lifgdusho8UGHF3ru8i4ygh4iughvewhgewt` - полностью!!!)
-------------------------------------------
 ## :hammer_and_wrench: Настройка конфигов
 
 1. Все конфиги находятся в папке `configs`
@@ -118,6 +112,12 @@
 3. Основной конфиг со всеми переключателями: `configs/_main.cfg`
 4. Конфиг авто-ответчика: `configs/auto_response.cfg`
 5. Конфиг авто-выдачи: `configs/auto_delivery.cfg`
+
+- Ваш юзер агент можно получить тут: `https://whatmyuseragent.com/` (нажмите на `copy`)
+
+- Расширение для получения `golden_key` (голден кей получаем на сайте funpay `НУЖНО БЫТЬ АВТОРИЗОВАННЫМ НА САЙТЕ`!!!): `https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=ru`
+
+- Бот для тг создаем в `https://t.me/BotFather` и получаем токен бота (формат пример: `3476237846:lifgdusho8UGHF3ru8i4ygh4iughvewhgewt` - полностью!!!)
 
 ## :electric_plug: Установка плагинов
 Установка плагинов крайне проста. Просто скопируйте файл плагина (с расширением `.py`) в папку `plugins`.
