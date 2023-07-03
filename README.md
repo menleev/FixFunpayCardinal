@@ -105,6 +105,10 @@
 
 7. Настройте конфиги и запустите FixFunPayCardinal с помощью команды `python3.11 main.py` или `py main.py` или запустите `start.bat`.
 
+- Ваш юзер агент тут: `https://whatmyuseragent.com/`
+- Расширение для получения `golden_key` (голден кей получаем на сайте funpay `НУЖНО БЫТЬ АВТОРИЗОВАННЫМ НА САЙТЕ`): `https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=ru`
+- Бот для тг создаем в `https://t.me/BotFather` и получаем токен бота (формат пример: `3476237846:lifgdusho8UGHF3ru8i4ygh4iughvewhgewt` - полностью!!!)
+
 ## :hammer_and_wrench: Настройка конфигов
 
 1. Все конфиги находятся в папке `configs`
