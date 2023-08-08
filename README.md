@@ -92,9 +92,9 @@
    8. `curl -sS https://bootstrap.pypa.io/get-pip.py | python3.11`
 
 2. Скачиваем `screen` для создания окна для скрипта `apt install screen` (чтобы он работал даже после выхода с сервера)
-   2.1 Создавать сеанс `screen -S funpay` (-S - создает окно, funpay - название нашего окна)
-   2.2 Чтобы выйти из окна нажимаем сочитание клавиш `CTRL + A + D`
-   2.3 Чтобы войти в окно, вводим `screen -x funpay`
+   1. Создавать сеанс `screen -S funpay` (-S - создает окно, funpay - название нашего окна)
+   2. Чтобы выйти из окна нажимаем сочитание клавиш `CTRL + A + D`
+   3. Чтобы войти в окно, вводим `screen -x funpay`
 4. Скачайте `git` с помощью команды `sudo apt install git`.
 5. Скачайте FunPayCardinal с помощью команды `git clone https://github.com/menleev/FixFunpayCardinal.git`.
 6. Перейдите в папку `FixFunPayCardinal` с помощью команрды `cd FixFunPayCardinal`.
