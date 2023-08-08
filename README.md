@@ -71,7 +71,7 @@
 ## :robot: Установка 
 ## :hotsprings: Linux (Ubuntu)
 
-## :arrow_down: Автомматическая Установка
+## :arrow_down: Автоматическая Установка
 
 1. Скачиваем (вводить в консоль) `wget https://raw.githubusercontent.com/menleev/FixFunpayCardinal/main/autoinstaller.sh`
 2. Вводим `chmod +x autoinstaller.sh`
