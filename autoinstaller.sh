@@ -19,16 +19,17 @@ yes | sudo apt install -y git
 yes | git clone https://github.com/menleev/FixFunpayCardinal.git
 
 # Переход в папку FixFunPayCardinal
-cd FixFunPayCardinal
+cd /root/FixFunpayCardinal
 
 # Установка нужных пакетов
-yes | python3.11 setup.py
+yes | python3.11 ./setup.py
 
 # Создание нового сеанса screen с названием "funpay"
 screen -dmS funpay
 
 # Отправка команды в сеанс screen для запуска FunPay Cardinal
-screen -S funpay -X stuff "cd $(pwd)$(printf \\r)"
+screen -S funpay -X stuff "cd /root/FixFunpayCardinal$(printf \\r)"
 screen -S funpay -X stuff "python3.11 main.py$(printf \\r)"
 
 echo "FunPay Cardinal установлен и запущен в сеансе 'funpay'."
+echo "Чтобы перейти в окно funpay наберите команду screen -x funpay"
