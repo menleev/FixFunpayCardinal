@@ -15,7 +15,7 @@
   - [Для пользователей](#grinning-для-пользователей)
   - [Для разработчиков](#computer-для-разработчиков)
 
-- [Установка](#arrow_down-установка)
+- [Установка](#robot-установка)
   - [Linux (Ubuntu)](#hotsprings-linux-ubuntu)
   - [Windows](#window-windows) 
 - [Настройка конфигов](#hammer_and_wrench-настройка-конфигов)
@@ -68,9 +68,18 @@
 - Собственный Python-пакет FunPayAPI, который никак не привязан к FunPay Cardinal.
 - Поддержка лично от меня :)
 ------------------------------------------
-## :arrow_down: Установка
+## :robot: Установка 
+## :hotsprings: Linux (Ubuntu)
 
-### :hotsprings: Linux (Ubuntu)
+## :arrow_down: Автомматическая Установка
+
+1. Скачиваем (вводить в консоль) `wget https://raw.githubusercontent.com/menleev/FixFunpayCardinal/main/autoinstaller.sh`
+2. Вводим `chmod +x autoinstaller.sh`
+3. Запускаем `sh autoinstaller.sh` или `sh ./autoinstaller.sh`
+4. Ждём установки (если консоль не идёт дальше, прочтите что указано ниже и нажмите `Enter` или если написанно `Yes/No` то нажимаем на `Y`)
+5. После окончания загрузки, входим в окно введя команду `screen -x funpay` (чтобый выйти из окна нажимаем сочетание клавиш `CTRL + A + D`)
+
+### :arrow_down: Ручная Установка
 
 1. Введите следующие команды для установки Python 3.11.
    1. `sudo apt update`
@@ -82,11 +91,15 @@
    7. `sudo apt install gcc`
    8. `curl -sS https://bootstrap.pypa.io/get-pip.py | python3.11`
 
-2. Скачайте `git` с помощью команды `sudo apt install git`.
-3. Скачайте FunPayCardinal с помощью команды `git clone https://github.com/menleev/FixFunpayCardinal.git`.
-4. Перейдите в папку `FixFunPayCardinal` с помощью команрды `cd FixFunPayCardinal`.
-5. Установите нужные пакеты с помощью команды `python3.11 setup.py`.
-6. Настройте конфиги и запустите FunPay Cardinal с помощью команды `python3.11 main.py`.
+2. Скачиваем `screen` для создания окна для скрипта `apt install screen` (чтобы он работал даже после выхода с сервера)
+   2.1 Создавать сеанс `screen -S funpay` (-S - создает окно, funpay - название нашего окна)
+   2.2 Чтобы выйти из окна нажимаем сочитание клавиш `CTRL + A + D`
+   2.3 Чтобы войти в окно, вводим `screen -x funpay`
+4. Скачайте `git` с помощью команды `sudo apt install git`.
+5. Скачайте FunPayCardinal с помощью команды `git clone https://github.com/menleev/FixFunpayCardinal.git`.
+6. Перейдите в папку `FixFunPayCardinal` с помощью команрды `cd FixFunPayCardinal`.
+7. Установите нужные пакеты с помощью команды `python3.11 setup.py`.
+8. Настройте конфиги и запустите FunPay Cardinal с помощью команды `python3.11 main.py`.
 ------------------------------------------
 ### :window: Windows
 
