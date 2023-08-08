@@ -73,7 +73,7 @@
 
 ## :arrow_down: Автоматическая Установка
 
-1. Скачиваем (вводить в консоль) `wget https://raw.githubusercontent.com/menleev/FixFunpayCardinal/main/autoinstaller.sh`
+1. Вводим в консоль `wget https://raw.githubusercontent.com/menleev/FixFunpayCardinal/main/autoinstaller.sh`
 2. Вводим `chmod +x autoinstaller.sh`
 3. Запускаем `sh autoinstaller.sh` или `sh ./autoinstaller.sh`
 4. Ждём установки (если консоль не идёт дальше, прочтите что указано ниже и нажмите `Enter` или если написанно `Yes/No` то нажимаем на `Y`)
