@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Установка screen
-sudo apt install -y screen
+yes | sudo apt install -y screen
 
 # Установка Python 3.11 и необходимых пакетов
 yes | sudo apt update
