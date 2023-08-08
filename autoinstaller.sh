@@ -4,25 +4,25 @@
 sudo apt install -y screen
 
 # Установка Python 3.11 и необходимых пакетов
-sudo apt update
-sudo apt install -y software-properties-common
-sudo add-apt-repository -y ppa:deadsnakes/ppa
-sudo apt update
-sudo apt install -y python3.11 python3.11-dev python3.11-gdbm python3.11-venv
-sudo apt install -y curl gcc
-curl -sS https://bootstrap.pypa.io/get-pip.py | sudo python3.11
+yes | sudo apt update
+yes | sudo apt install -y software-properties-common
+yes | sudo add-apt-repository -y ppa:deadsnakes/ppa
+yes | sudo apt update
+yes | sudo apt install -y python3.11 python3.11-dev python3.11-gdbm python3.11-venv
+yes | sudo apt install -y curl gcc
+yes | curl -sS https://bootstrap.pypa.io/get-pip.py | sudo python3.11
 
 # Установка git
-sudo apt install -y git
+yes | sudo apt install -y git
 
 # Скачивание FunPayCardinal
-git clone https://github.com/menleev/FixFunpayCardinal.git
+yes | git clone https://github.com/menleev/FixFunpayCardinal.git
 
 # Переход в папку FixFunPayCardinal
 cd FixFunPayCardinal
 
 # Установка нужных пакетов
-python3.11 setup.py
+yes | python3.11 setup.py
 
 # Создание нового сеанса screen с названием "funpay"
 screen -dmS funpay
