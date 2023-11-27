@@ -1102,7 +1102,7 @@ class Account:
                 if author_id == 0:
                     message_text = parser.find("div", {"class": "alert alert-with-icon alert-info"}).text.strip()
                 else:
-                    message_text = parser.find("div", {"class": "message-text"}).text
+                    message_text = parser.find("div", {"class": "chat-msg-text"}).text
 
             message_obj = types.Message(i["id"], message_text, chat_id, interlocutor_username,
                                         None, author_id, i["html"], image_link, determine_msg_type=False)
